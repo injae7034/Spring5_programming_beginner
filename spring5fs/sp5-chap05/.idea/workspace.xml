@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81973b0a-1405-470f-b7f1-755e6c933f9c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../sp5-chap06/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sp5-chap06/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sp5-chap06/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sp5-chap06/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sp5-chap06/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sp5-chap06/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sp5-chap06/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sp5-chap06/app/src/main/java/config/AppCtx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sp5-chap06/app/src/main/java/spring/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="81973b0a-1405-470f-b7f1-755e6c933f9c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
