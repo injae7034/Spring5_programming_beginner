@@ -1,6 +1,7 @@
 package main;
 
 import chap07.Calculator;
+import chap07.RecCalculator;
 import config.AppCtx;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -9,7 +10,7 @@ public class MainAspect {
         AnnotationConfigApplicationContext context =
                 new AnnotationConfigApplicationContext(AppCtx.class);
 
-        Calculator calculator = context.getBean("calculator", Calculator.class);
+        RecCalculator calculator = context.getBean("calculator", RecCalculator.class);
         long result = calculator.factorial(5);
 
         System.out.println("calculator.factorial(5) = " + result);
