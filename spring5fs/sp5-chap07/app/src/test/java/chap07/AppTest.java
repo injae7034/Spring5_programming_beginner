@@ -3,12 +3,12 @@
  */
 package chap07;
 
-import main.MainAspect;
+import main.MainAspectWithCache;
 import org.junit.jupiter.api.Test;
 
 class AppTest {
     @Test void appHasAGreeting() {
-        MainAspect classUnderTest = new MainAspect();
+        MainAspectWithCache classUnderTest = new MainAspectWithCache();
         assertNotNull(classUnderTest.getGreeting(), "app should have a greeting");
     }
 }
