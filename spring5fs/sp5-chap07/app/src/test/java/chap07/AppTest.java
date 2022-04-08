@@ -3,13 +3,12 @@
  */
 package chap07;
 
-import main.MainProxy;
+import main.MainAspect;
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
 
 class AppTest {
     @Test void appHasAGreeting() {
-        MainProxy classUnderTest = new MainProxy();
+        MainAspect classUnderTest = new MainAspect();
         assertNotNull(classUnderTest.getGreeting(), "app should have a greeting");
     }
 }
