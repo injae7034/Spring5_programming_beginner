@@ -1,8 +1,10 @@
 package config;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.lang.Nullable;
 import spring.ChangePasswordService;
 import spring.MemberDao;
 import spring.MemberInfoPrinter;
@@ -40,8 +42,8 @@ public class AppConf2 {
     @Bean
     public MemberInfoPrinter memberInfoPrinter() {
         MemberInfoPrinter memberInfoPrinter = new MemberInfoPrinter();
-        memberInfoPrinter.setMemberDao(memberDao);
-        memberInfoPrinter.setMemberPrinter(memberPrinter);
+        //memberInfoPrinter.setMemberDao(memberDao);
+        //memberInfoPrinter.setMemberPrinter(memberPrinter);
 
         return memberInfoPrinter;
     }
