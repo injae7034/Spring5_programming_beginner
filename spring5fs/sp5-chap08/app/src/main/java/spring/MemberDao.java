@@ -116,7 +116,7 @@ public class MemberDao {
 
     public void update(Member member) {
         jdbcTemplate.update(
-                "update MEMBER set NAME = ?, PASSWORD = ?, WHERE EMAIL = ?",
+                "update MEMBER set NAME = ?, PASSWORD = ? WHERE EMAIL = ?",
                 member.getName(), member.getPassword(), member.getEmail());
     }
 
