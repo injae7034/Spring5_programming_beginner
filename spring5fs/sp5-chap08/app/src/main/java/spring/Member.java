@@ -1,5 +1,7 @@
 package spring;
 
+import org.springframework.transaction.annotation.Transactional;
+
 import java.time.LocalDateTime;
 
 public class Member {
@@ -42,6 +44,7 @@ public class Member {
         return registerDateTime;
     }
 
+    @Transactional
     public void changePassword(String oldPassword, String newPassword) {
         if(!password.equals(oldPassword)) {
             throw new WrongIdPasswordException("비밀번호가 일치하지 않습니다.");

@@ -12,7 +12,7 @@ import java.util.List;
 public class MainForMemberDao {
     private static MemberDao memberDao;
 
-    private static DateTimeFormatter formatter =
+    private static final DateTimeFormatter formatter =
             DateTimeFormatter.ofPattern("MMddHHmmss");
 
     public static void main(String[] args) {
@@ -22,7 +22,7 @@ public class MainForMemberDao {
         memberDao = ctx.getBean(MemberDao.class);
 
         selectAll();
-        updateMemeber();
+        updateMember();
         insertMember();
 
         ctx.close();
@@ -40,7 +40,7 @@ public class MainForMemberDao {
         }
     }
 
-    private static void updateMemeber() {
+    private static void updateMember() {
         System.out.println("----- updateMember");
         Member member = memberDao.selectByEmail("madvirus@madvirus.net");
         String oldPw = member.getPassword();

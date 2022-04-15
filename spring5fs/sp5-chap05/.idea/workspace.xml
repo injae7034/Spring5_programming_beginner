@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81973b0a-1405-470f-b7f1-755e6c933f9c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../sp5-chap03/app/src/main/java/config/AppConf2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sp5-chap03/app/src/main/java/config/AppConf2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sp5-chap03/app/src/main/java/spring/MemberInfoPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sp5-chap03/app/src/main/java/spring/MemberInfoPrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sp5-chap04/app/src/main/java/config/AppCtx.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sp5-chap04/app/src/main/java/config/AppCtx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sp5-chap08/app/src/main/java/main/MainForCPS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sp5-chap08/app/src/main/java/config/AppCtx.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sp5-chap08/app/src/main/java/config/AppCtx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sp5-chap08/app/src/main/java/main/MainForMemberDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sp5-chap08/app/src/main/java/main/MainForMemberDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sp5-chap08/app/src/main/java/spring/ChangePasswordService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sp5-chap08/app/src/main/java/spring/ChangePasswordService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sp5-chap08/app/src/main/java/spring/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sp5-chap08/app/src/main/java/spring/Member.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
